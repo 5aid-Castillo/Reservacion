@@ -7,7 +7,7 @@ const Router = () => {
   return (
     <>
         <Routes>
-            <Route path='/Reservaciones/' element={<Home />}/>
+            <Route path='/Reservaciones' element={<Home />}/>
             <Route path='/form' element={<Form />}/>
             {/* <Route path='*' element={<Home />}/> */}
         </Routes>
